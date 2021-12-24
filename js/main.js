@@ -1,12 +1,10 @@
 let entradas = [];
-//let indiceEntradas = -1;
+
 if (JSON.parse(localStorage.getItem("Entradas")) != null) {
     localStorage.clear();
 }
 
 // Reseteo el formulario si el usuario hace click en Cancelar
-
-//Asociamos el evento click para btn1
 $("#botonCancelar").click(resetearFormulario);
 
 // Valido formulario al clickear Confirmar en el form
