@@ -94,7 +94,7 @@ function validarFormulario(e) {
     }
 }
 
-// Funcion para generar dinamicamente las filas en la tabla de compra en el DOM
+// Funcion para generar dinamicamente las filas en la tabla de compra en el DOM.
 function generarFilasCompra(entrada) {
 
     $("tbody").append(`<tr>
